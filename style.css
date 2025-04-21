@@ -142,7 +142,8 @@ h3 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 22px;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -152,6 +153,7 @@ h1 {
 }
 
 .samitop {
+    font-size: 40px;
     max-width: 500px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -203,4 +205,226 @@ h1 {
     .maintext {
         top: 22%
     }
+}
+
+.allcontentbox {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.leftsidebox {
+    width: 60%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.card {
+    grid-column: span 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+    box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+}
+
+.tovarimg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.cardtag {
+    font-size: 16px;
+    color: #C9A96E;
+}
+
+.cardtext {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.cardtb {
+    font-size: 12px;
+    color: #979797;
+    margin-bottom: 10px;
+}
+
+.cardtextcont {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.carddv {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+    box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+}
+
+.tovarimgdv {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+.cardtextcontdv {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.cardtextdv {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.numbercont {
+    grid-column: span 2;
+    margin: 0 auto;
+}
+
+.undv {
+    margin-bottom: 10px;
+}
+
+.bothov {
+    border-radius: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.bothov:hover {
+    background-color: #979797;
+}
+
+.rightsidebox {
+    width: 30%;
+    height: fit-content;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+}
+
+.sign {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.autimg {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.carda {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+    box-shadow: 0px 18px 40px -5px rgba(0,0,0,0.17);
+}
+
+.pital {
+    color: #979797;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.auttext {
+    width: 100%;
+    text-align: center;
+    color: #6f6f6f;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.h3col {
+    color: #C9A96E;
+}
+
+.botbut {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #979797;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 4px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.categories {
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.pod {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dadada;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.cattext {
+    color: #6f6f6f;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
 }
